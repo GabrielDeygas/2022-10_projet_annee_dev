@@ -1,0 +1,50 @@
+.filter-form {
+  position: relative;
+  left: -10vw;
+  display: flex;
+  height: 60px;
+  margin: 0;
+
+  select {
+    appearance: none;
+    background-color: #E38105;
+    border: none;
+    color: #FFEEFF;
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+
+.filter-searchGameName {
+  background-color: #FFF;
+  border-radius: 20px 0 0 20px;
+  padding: 20px 40px;
+  height: 20px;
+  width: 380px;
+}
+
+.selects-separator {
+  position: absolute;
+  top: 10px;
+  left: 457px;
+  background-color: #fff;
+  width: 1px;
+  height: 40px;
+}
+
+.filter-select-types {
+  text-align: center;
+  padding: 0 20px;
+  border-right: 1px white solid;
+
+  :hover {
+    cursor: pointer;
+    background-color: #cd7300;
+  }
+}
+
+.filter-select-platforms {
+  text-align: center;
+  padding: 0 20px;
+  border-radius: 0 20px 20px 0;
+}

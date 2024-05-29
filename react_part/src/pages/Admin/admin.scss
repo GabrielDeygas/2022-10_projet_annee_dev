@@ -1,0 +1,41 @@
+#admin {
+  display: flex;
+}
+
+.AHeader {
+  text-align: center;
+  line-height: 50px;
+  background: black;
+  color: white;
+}
+
+.sideMenu {
+  color: #FFF;
+  flex-grow: 1;
+  ul {
+    padding: 5px 10px;
+    li {
+      padding: 1px 10px;
+      a:link {
+        text-decoration: none;
+      }
+      a:visited {
+        text-decoration: none;
+        color: grey;
+      }
+    }
+  }
+
+}
+
+#admin_body {
+  color: #FFFFFF;
+  flex-grow: 6;
+  padding-left: 15px;
+
+  button {
+    padding: 5px 10px;
+    width: 50px;
+    background: green;
+  }
+}

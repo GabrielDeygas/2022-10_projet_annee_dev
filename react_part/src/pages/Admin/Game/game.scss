@@ -1,0 +1,31 @@
+.title-game {
+  padding: 5px;
+}
+
+.container-game-list {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+
+  div {
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .game-id {
+    padding: 5px;
+    width: 10%;
+  }
+  .game-name {
+    padding: 5px;
+    width: 80%;
+  }
+
+  button {
+    justify-content: flex-end;
+    width: 10%;
+  }
+}
+

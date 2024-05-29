@@ -1,0 +1,32 @@
+.cardGame-container {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 25px;
+  border: 3px #FFEEFF solid;
+
+  h3 {
+    padding: 5px 10px;
+    text-align: center;
+    color: #FFEEFF;
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
+
+.cardGame-title-img-container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.cardGame-platform-container {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardGame-platform-icon {
+  padding: 5px;
+}

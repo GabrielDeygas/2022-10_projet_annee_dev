@@ -1,0 +1,46 @@
+.form-login {
+  width: 60%;
+  margin: 150px auto 0;
+  border: 2px #E38105 solid;
+  border-radius: 20px;
+  padding: 2rem;
+
+  .group {
+    margin-bottom: 15px;
+
+    label {
+      color: #FFF;
+      display:block;
+      margin-bottom: 10px;
+    }
+    
+    input {
+      background-color: #fff;
+      margin-bottom: 10px;
+      width: 100%;
+      padding: 2px;
+      border-radius: 5px;
+    }
+
+
+  }
+
+  .button-auth {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+    button {
+      background-color: #E38105;
+      color: #FFF;
+      font-weight: 500;
+      font-size: 18px;
+      margin-top: 20px;
+      width: 200px;
+      padding: 5px;
+      border-radius: 10px;
+    }
+  }
+}
+
+

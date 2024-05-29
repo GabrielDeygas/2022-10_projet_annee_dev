@@ -1,0 +1,50 @@
+.title-user {
+  padding: 5px;
+}
+
+.container-user-list {
+  border: 1px solid black;
+  display: flex;
+  width: 95%;
+
+  div {
+
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .user-id {
+    padding: 5px;
+    width: 5%;
+  }
+  .user-email {
+    padding: 5px;
+    width: 25%;
+  }
+  .user-nickname {
+    padding: 5px;
+    width: 15%;
+
+  }
+  .user-firstname {
+    padding: 5px;
+    width: 15%;
+
+  }
+  .user-lastname {
+    padding: 5px;
+    width: 15%;
+
+  }
+  .user-stripeid {
+    padding: 5px;
+    width: 20%;
+  }
+
+  button {
+    justify-content: flex-end;
+    width: 55px;
+  }
+}

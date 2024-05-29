@@ -1,0 +1,26 @@
+h1 {
+  margin: 20px 0;
+  text-align: center;
+}
+
+  .container-ligns {
+    display: flex;
+    justify-content: space-between;
+
+    div {
+      padding:  5px;
+    }
+
+    .order-id {
+      width: 10%;
+    }
+    .order-keycode {
+      width: 30%;
+    }
+    .order-keyprice {
+      width: 25%;
+    }
+    .order-gamename {
+      width: 35%;
+    }
+  }

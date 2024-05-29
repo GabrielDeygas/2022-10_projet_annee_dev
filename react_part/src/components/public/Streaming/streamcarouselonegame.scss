@@ -1,0 +1,40 @@
+.carousel-h3 {
+  color: #FFEEFF;
+  font-size: 28px;
+  margin: 30px 0 20px;
+}
+
+.carousel-containerEpisode {
+  color: #FFEEFF;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-containerInsideEpisode {
+  border-radius: 20px;
+  border: 2px solid #FFF;
+  width: 260px;
+}
+
+.carousel-txtInfosEpisode {
+  background-color: #555555;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 10px;
+}
+
+.carousel-containerTitleEpisode {
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px;
+}
+
+.carousel-containerNumberYoutuber {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+

@@ -1,0 +1,30 @@
+.title-type {
+  padding: 5px;
+}
+
+.container-type-list {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+
+  div {
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .type-id {
+    padding: 5px;
+    width: 10%;
+  }
+  .type-name {
+    padding: 5px;
+    width: 80%;
+  }
+
+  button {
+    justify-content: flex-end;
+    width: 10%;
+  }
+}

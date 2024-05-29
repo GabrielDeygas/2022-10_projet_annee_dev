@@ -1,0 +1,127 @@
+.shopping-cart {
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    font-size: 34px;
+    margin-bottom: 120px;
+  }
+}
+
+.shopping-cartContainer {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1200px;
+  padding: 40px;
+  border-radius: 20px;
+  border: 3px solid #E38105;
+}
+
+.shopping-infos {
+  display: flex;
+  background-color: #272727;
+  width: 100%;
+  border-radius: 20px;
+  border: 2px solid #E38105;
+  margin: 20px 0;
+}
+
+.shopping-containerImg {
+  width: 220px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+
+  img {
+    max-width: 100%;
+    height: 90%;
+  }
+}
+
+.shopping-txtInfos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+  padding: 10px;
+}
+
+.shopping-namePrice {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.shopping-name {
+  font-size: 28px;
+}
+
+.shopping-price {
+  font-size: 22px;
+}
+
+.shopping-platform {
+  font-size: 18px;
+}
+
+.shopping-containerRemove {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 10px;
+
+  p {
+    padding: 10px 15px 0 0 ;
+  }
+
+  img:hover {
+    cursor: pointer;
+    filter: invert(40%) sepia(100%) saturate(5555%) hue-rotate(355deg) brightness(101%) contrast(123%);
+  }
+}
+
+.shopping-sousTotal {
+  font-size: 28px;
+}
+
+.shopping-totalPrice {
+  font-size: 22px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.right-text {
+  text-align: right;
+}
+
+.shopping-btnContainer {
+
+  display: flex;
+  padding: 30px 0px 0px;
+  justify-content: right;
+
+  button {
+    padding: 15px;
+    color: #FFEEFF;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+    .shopping-btnDeleteAll {
+      background-color: red;
+      margin-right: 10px;
+    }
+
+    .shopping-btnOrder {
+      background-color: #E38105;
+    }
+
+}
+

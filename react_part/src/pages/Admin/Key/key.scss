@@ -1,0 +1,41 @@
+.title-keyList {
+  padding: 5px;
+}
+
+.container-keyList-list {
+  border: 1px solid black;
+  display: flex;
+  width: 95%;
+
+  div {
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .keyList-id {
+    padding: 5px;
+    width: 10%;
+  }
+  .keyList-gameName {
+    padding: 5px;
+    width: 25%;
+  }
+  .keyList-platformName {
+    padding: 5px;
+    width: 25%;
+  }
+  .keyList-soldout {
+    padding: 5px;
+    width: 20%;
+  }
+  .keyList-price {
+    padding: 5px;
+    width: 20%;
+  }
+
+  button {
+    justify-content: flex-end;
+    width: 10%;
+  }
+}

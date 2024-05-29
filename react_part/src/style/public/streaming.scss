@@ -1,0 +1,48 @@
+body {
+  background-color: #1C1C1C;
+}
+
+.streaming {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-container {
+  position: relative;
+}
+
+.banner-stream-bgc {
+  width: 100vw;
+}
+
+.banner-container-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFEEFF;
+  font-size: 38px;
+
+  h2 {
+    padding: 10px;
+  }
+
+  span {
+    color: #E38105;
+  }
+}
+
+.wave-filter-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-waveEffect-stream {
+  width: 100vw;
+  height: 150px;
+  margin-top: -50px;
+  margin-bottom: 50px;
+}

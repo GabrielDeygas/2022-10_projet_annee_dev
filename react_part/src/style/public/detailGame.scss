@@ -1,0 +1,154 @@
+.detailGame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-container {
+  position: relative;
+}
+
+.banner-detail-bgc {
+  width: 100vw;
+}
+
+.banner-container-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFEEFF;
+  font-size: 38px;
+
+  h2 {
+    padding: 10px;
+  }
+
+  span {
+    color: #E38105;
+  }
+}
+
+.detailGame-container {
+  margin-top: 80px;
+  width: 1200px;
+  border: 3px #E38105 solid;
+  border-radius: 20px;
+  padding: 30px;
+  color: #FFF;
+  background-color: #000000;
+}
+
+.detailmainInfos-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1125px;
+}
+
+.detailImg-container {
+  width: 50%;
+}
+
+.detailNamePlatPrice-container {
+  display: flex;
+  border: 1px #FFF solid;
+  border-radius: 20px;
+  background-color: #1C1C1C;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+
+.game-name-detail {
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+}
+
+.detailGame-platform-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 20px;
+
+  button {
+    padding: 5px 30px;
+    border-right: 1px #1C1C1C solid;
+  }
+}
+
+.detailGame-price {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.blackOnFilter {
+  webkit-filter: invert(100%); /* Safari/Chrome */
+  filter: invert(100%);
+}
+
+.detailGame-addBasket {
+  font-size: 22px;
+  color: #FFF;
+  font-weight: bold;
+  background-color: #E38105;
+  padding: 20px 60px;
+  border-radius: 20px;
+}
+
+.details-containerInfos {
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.details-description {
+  padding: 40px 5px;
+  line-height: 30px;
+  text-align: justify;
+  font-weight: 0;
+  font-size: 24px;
+}
+
+.details-containerVideo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  width: 1200px;
+  border: 3px #E38105 solid;
+  border-radius: 20px;
+  padding: 30px;
+  color: #FFF;
+  background-color: #000000;
+
+
+
+  .details-videoGameName {
+    font-size: 38px;
+    padding: 20px 0 40px 0;
+    font-weight: 800;
+  }
+  .details-video {
+    position: relative;
+    width: 1200px;
+    height: 600px;
+    top: 0;
+    transform: none;
+  }
+
+  .details-video video {
+    border: 1px white solid;
+    border-radius: 25px;
+  }
+
+}
+
+.details-dev,
+.details-type,
+.details-date,
+.details-editor {
+  padding: 10px 0;
+}

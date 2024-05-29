@@ -1,0 +1,46 @@
+.title-videoyt {
+  padding: 5px;
+}
+
+.videoyt-container {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+
+  div {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .videoyt-id {
+    padding: 5px;
+    width: 5%;
+  }
+  .videoyt-gameId {
+    padding: 5px;
+    width: 25%;
+  }
+  .videoyt-link{
+    padding: 5px;
+    width: 15%;
+
+  }
+  .videoyt-youtuber {
+    padding: 5px;
+    width: 15%;
+
+  }
+  .videoyt-episode {
+    padding: 5px;
+    width: 15%;
+
+  }
+
+  button {
+    justify-content: flex-end;
+    width: 55px;
+  }
+}
