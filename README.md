@@ -17,17 +17,17 @@ Le visionnage des vidéos YouTube est organisé par jeu ; présents dans un Caro
 naviguer au travers de cette page afin de faire apparaître dans une modal chacun des épisodes
 cliqués.
 
-Page d'accueil :
+## Page d'accueil :
 ![](https://i.imgur.com/wvV9KBB.png)
 
-Card d'achat :
+## Card d'achat :
 ![](https://i.imgur.com/WUFfnTU.png)
 
-Carousel videos :
+## Carousel videos :
 ![](https://i.imgur.com/BRKVeZj.png)
 
-Player video intégré :
+## Player video intégré :
 ![](https://i.imgur.com/BU9oWHN.png)
 
-Schema BDD : 
+## Schema BDD : 
 ![](https://i.imgur.com/idGA0gP.png)
